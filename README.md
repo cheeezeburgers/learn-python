@@ -21,3 +21,7 @@ git remote add upstream LINK-TO-ORIGINAL-REPO
 Then you can simply: `hub pull-request`
 
 This means you can only merge this branch once. So, that means I have to make date specific branches every time I start learning...
+
+So in the next you can switch back to `master` and fetch the new version of the original repo.
+
+Work with a new branch for changes.
