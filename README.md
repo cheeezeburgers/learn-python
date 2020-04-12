@@ -18,6 +18,17 @@ git push -u origin NEW-BRANCH
 git remote add upstream LINK-TO-ORIGINAL-REPO
 ```
 
-Then you can simply: `hub pull-request`
+Then you can simply: `hub pull-request --browse -m "Title"`
+
+You can check on existing pull requests with `hub pr show`
 
 This means you can only merge this branch once. So, that means I have to make date specific branches every time I start learning...
+
+So in the next you can switch back to `master` and fetch the new version of the original repo.
+
+```bash
+git fetch upstream master
+git push		# don't forget to push back to your repo
+```
+
+You can work with a new branch for changes if you like but I think you can continue working with the old one **as long you have the last pull request merged or denied:**
