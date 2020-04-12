@@ -18,7 +18,9 @@ git push -u origin NEW-BRANCH
 git remote add upstream LINK-TO-ORIGINAL-REPO
 ```
 
-Then you can simply: `hub pull-request`
+Then you can simply: `hub pull-request --browse -m "Title"`
+
+You can check on existing pull requests with `hub pr show`
 
 This means you can only merge this branch once. So, that means I have to make date specific branches every time I start learning...
 
